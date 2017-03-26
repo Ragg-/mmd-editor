@@ -14,7 +14,7 @@
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-0.2.3.tgz#0888b0f20cc7e58e1c22a1888b4e963eefaa810a"
 
-"@types/three@^0.84.3":
+"@types/three@*", "@types/three@^0.84.3":
   version "0.84.3"
   resolved "https://registry.yarnpkg.com/@types/three/-/three-0.84.3.tgz#1ba85df57e7fb2bdd6f4cf60cc203c3e902e6846"
   dependencies:
@@ -1351,6 +1351,10 @@ mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.1, mkdirp@~0.5.0:
   dependencies:
     minimist "0.0.8"
 
+mmd-parser@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/mmd-parser/-/mmd-parser-1.0.3.tgz#7e4e475d076729e592c3e6bbe9298d7b841ed3ed"
+
 ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
@@ -2052,6 +2056,13 @@ tar@^2.2.1:
     block-stream "*"
     fstream "^1.0.2"
     inherits "2"
+
+three-mmd-loader@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/three-mmd-loader/-/three-mmd-loader-0.0.4.tgz#8961b430e658e40d434f60764807c6527a939a9e"
+  dependencies:
+    "@types/three" "*"
+    mmd-parser "^1.0.3"
 
 three@^0.84.0:
   version "0.84.0"

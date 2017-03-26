@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "document-ready-promise": "^3.0.1",
-    "three": "^0.84.0"
+    "three": "^0.84.0",
+    "three-mmd-loader": "^0.0.4"
   }
 }
